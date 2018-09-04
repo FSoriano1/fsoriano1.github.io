@@ -1,0 +1,122 @@
+body {
+    font-family:cursive;
+    background-color:rgb(99,134,199);
+    font-size:15px;
+    line-height:1.5;
+    color:rgb(0,0,0);
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header {
+    background:rgb(100,100,100);    
+    color:white;
+    border-bottom:cyan 3px solid;
+    font-family: monospace;
+    min-height: 120px;
+}
+
+header h1 {
+    float:left;
+    margin-top:40px;
+}
+
+nav {
+    float:right;
+    margin-top:35px;
+}
+
+header li{
+    display:inline;
+    margin:10px;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+}
+#showcase{
+    margin-bottom: 250px;
+}
+#showcase img{
+    position:absolute;
+    top:150px;
+    right:1000px;
+}
+#showcase h1{
+    width:60%;
+    
+    margin:auto;
+}
+
+#showcase p{
+    width:60%;
+    margin:auto;
+}
+
+footer {
+    background-color:gray;
+    font-family:monospace;
+    border-top: cyan 3px solid;
+    border-bottom:cyan 3px solid;
+    margin-top:240px;
+    
+    
+}
+footer pre{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer li{
+    display:inline;
+}
+#penguins img{
+    background-color: blue;
+    margin:auto;
+}
+header .highlight{
+    color:cyan;
+    font-weight: bold;
+}
+header a:hover{
+    color:rgb(150,150,150);
+}
+footer a:hover{
+    color:white;
+}
+#main {
+
+}
+#sidebar{
+    float:right;
+    width:40%;
+    margin-bottom: 80px;
+    margin-top:40px;
+
+}
+#sidebar2{
+    float:left;
+    width:30%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.dark{
+    padding:15px;
+    background:rgb(220,220,220);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+@media(max-width:770px){
+    header h1, nav{
+        float:none;
+        color:purple;
+    }    
+    
+
+}

@@ -1,0 +1,156 @@
+body{
+    font-family:helvetica;
+    background:rgb(255,255,255);
+    font-size:15px;
+    line-height:1.5;
+    color:rgb(0,0,0);
+    
+    
+}
+.container2{
+    width:80%;
+    margin:auto;
+}
+header{
+    background-color:rgb(115,150,210);
+    min-height: 140px;
+    border-bottom: blue 3px solid;
+    margin-bottom:0px;
+    
+}
+#img1{
+    float:left;
+    margin-top:40px;
+    opacity:1;
+}
+header li{
+    display:inline;
+    font-size: 15px
+}
+header a{
+    text-decoration:none;
+    color:black;
+    font-family: monospace;
+    opacity:1;
+}
+nav{
+    float:right;
+    text-decoration: none;
+    font-family:Helvetica;
+    font:bold;
+    margin-top:35px;
+}
+header background{
+    opacity: 0.5;
+}
+header a:hover{
+    color:blue;
+    font-family: helvetica;
+}
+#img2{
+width:100%;
+margin:auto;
+}
+footer {
+    background-color:rgb(115,150,210);
+    font-family:helvetica;
+    border-top: blue 3px solid;
+    margin-top: 100px
+    
+    
+}
+footer pre{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer li{
+    display:inline;
+}
+footer a:hover{
+    color:blue;
+    font-family:cursive;
+}
+h1{
+    margin:auto;
+    
+    
+}
+#sidebar{
+    float:right;
+    width:40%;
+    margin-bottom: 40px;
+    margin-top:-200px;
+    
+    
+    
+
+
+}
+h2{
+    text-align: center;
+}
+.dark{
+    padding:15px;
+    background:rgb(220,220,220);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+@media(max-width:1000px){
+     header{
+        min-height: 200px;
+    }    
+    nav{
+        float:left;
+    }
+    
+
+}
+@media(max-width:270px){
+    header{
+        min-height:230px;
+    }
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
