@@ -37,8 +37,10 @@ nav{
     float:right;
     text-decoration: none;
     font-family:Helvetica;
-    font:bold;
-    margin-top:35px;
+    height:90px;
+    font-size:40px;
+    margin-top:0px;
+    margin-left:-20px;
 }
 header background{
     opacity: 0.5;
@@ -48,14 +50,13 @@ header a:hover{
     font-family: helvetica;
 }
 #img2{
-width:100%;
-margin:auto;
+    width:80%;
+    margin:auto;
 }
 footer {
     background-color:rgb(115,150,210);
     font-family:helvetica;
     border-top: blue 3px solid;
-    margin-top: 100px
     
     
 }
@@ -67,7 +68,7 @@ footer li{
     display:inline;
 }
 footer a:hover{
-    color:blue;
+    color:white;
     font-family:cursive;
 }
 h1{
@@ -97,18 +98,18 @@ h2{
 }
 
 @media(max-width:1000px){
-     header{
+     /*header{
         min-height: 200px;
-    }    
+    }*/    
     nav{
         float:left;
     }
     
 
 }
-@media(max-width:270px){
+@media(max-width:800px){
     header{
-        min-height:230px;
+        min-height:250px;
     }
 }
 /* Container holding the image and the text */
@@ -118,39 +119,73 @@ h2{
     color: white;
 }
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-/* Top right text */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
 /* Centered text */
 .centered {
     position: absolute;
+    font-family: helvetica;
+    font-size:200%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.container3 {
+    text-align: center;
+    position:relative;
+}
+h3{
+    text-decoration: none;
+    font-family: helvetica;
+    background-color: white;
+    width:30%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top:40px;
+    padding:10px;
+    border-width: 5px;
+    border-color: black;
+    border-style:double
+}
+.container3 p{
+    width: 400px; 
+    position: relative; 
+    margin:auto;
+    top:350;
+    padding: 35px;
+    background: rgb(120,10,0,0.5);
+    border-radius:50px;
+    overflow-x: hidden; 
+    color:white;
+    
+    
 
+}
+.container2 {
+    background-color:rgb(115,150,210);
+    font-family:helvetica;
+    border-top: blue 3px solid;
+    margin-top: -400px
+    
+    
+}
+.container2 pre{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container2 li{
+    display:inline;
+}
+.container2 a:hover{
+    color:blue;
+    font-family:cursive;
+}
+.about{
+    position:relative;
+    top:-500px;
+    z-index:1;
+    margin:auto;
+    
+}
+.container3 img{
+    margin:auto;
+    width:90%;
+}
