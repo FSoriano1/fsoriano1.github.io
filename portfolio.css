@@ -22,10 +22,13 @@ header{
     float:left;
     margin-top:40px;
     opacity:1;
+    
 }
 header li{
     display:inline;
-    font-size: 15px
+    font-size: 15px;
+    position:relative;
+    bottom:50px;
 }
 header a{
     text-decoration:none;
@@ -34,13 +37,15 @@ header a{
     opacity:1;
 }
 nav{
+    position:relative;
     float:right;
-    text-decoration: none;
     font-family:Helvetica;
-    height:90px;
+    height:40px;
     font-size:40px;
     margin-top:0px;
-    margin-left:-20px;
+    margin-left:30px;
+    margin-right:15px;
+    top:40px;
 }
 header background{
     opacity: 0.5;
@@ -48,10 +53,14 @@ header background{
 header a:hover{
     color:blue;
     font-family: helvetica;
+    border-bottom-style:dashed;
 }
-.contianer img{
-    width:80%;
+.container #background2 img{
+    position:absolute;
     margin:auto;
+    bottom:7.5%;
+    right:10.5%;
+    
 }
 footer {
     background-color:rgb(115,150,210);
@@ -97,19 +106,70 @@ h2{
     margin-bottom:10px;
 }
 
-@media(max-width:900px){
+@media(max-width:1200px){
+    .about p{
+        font-size: 13px;
+    }
+}
+@media(max-width:1050px){
+    .about p{
+        font-size: 11.5px;
+    }
+
+}
+@media(max-width:990px){
      header{
-        min-height: 220px;
+        min-height: 200px;
     }   
     nav{
         float:left;
     }
-    
-
 }
-@media(max-width:800px){
-    header{
-        min-height:250px;
+@media(max-width:930px){
+    .about h3{
+        font-size: 13px;
+    }
+    .about p{
+        font-size: 11px;
+    }
+    .about{
+        top:100px;
+    }
+    .container5 p{
+        font-size:80%;
+    }
+}
+@media(max-width:700px){
+    .lower{
+        font-size: 75%;
+    }
+    .about{
+        top:200px;
+    }
+    .container5 p{
+        font-size: 70%;
+    }
+}
+@media(max-width:600px){
+    .container5 p{
+        font-size: 60%;
+    }
+}
+@media(max-width:550px){
+    .lower{
+        font-size: 55%;
+        margin-top: 10px;
+    }
+    .about{
+        top:250px;
+    }
+    .container5 p{
+        font-size:50%;
+    }
+}
+@media(max-width:450px){
+    .container5 p{
+        font-size:40%;
     }
 }
 /* Container holding the image and the text */
@@ -128,14 +188,30 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.lower{
+    position:absolute;
+    font-family: helvetica;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(150,150,150,0.75);
+    border-radius:15px;
+    padding:4px;
+
+    
+}
 .container3 {
     text-align: center;
     position:relative;
+    background:url(running.jpg);
+    background-size: cover;
     
 }
 h3{
+    position:relative;
     text-decoration: none;
     font-family: helvetica;
+    font-size: 100%;
     background-color: white;
     width:30%;
     margin:auto;
@@ -159,12 +235,10 @@ h3{
 
 }
 .container2 {
+    position:relative;
     background-color:rgb(115,150,210);
     font-family:helvetica;
-    border-top: blue 3px solid;
-    margin-top: -400px
-    
-    
+
 }
 .container2 pre{
     font-size: 20px;
@@ -179,13 +253,57 @@ h3{
 }
 .about{
     position:relative;
-    top:-550px;
+    transform: translate(0, -175%);
     z-index:1;
     margin:auto;
-    width:80%;
+    width:100%;
     
 }
 .container3 img{
     margin:auto;
     width:90%;
+    opacity:0;
+}
+.container5 {
+    margin:auto;
+    position:relative;
+}
+
+.container #background{
+    position:relative;
+    z-index:-1;
+}
+
+#title img{
+    position:relative;
+    margin:auto;
+    transform: translate(50%, -700%);
+    
+}
+.container5 p{
+    position:absolute;
+    width:60%;
+    color:white;
+    margin:auto;
+    font-family: helvetica;
+    background-color: rgb(100,100,0,0.3);
+    padding:5px;
+    border-radius:10px;
+    top:20%;
+    right:20%;
+}
+.container5 p a{
+    text-decoration: none;
+    color:white;
+}
+.container5 p a:hover{
+    font-family: cursive;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.container5 #xcimage{
+    position:absolute;
+    top:45%;
+    left:33%;
+
 }
