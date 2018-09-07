@@ -18,6 +18,7 @@ header{
     margin-bottom:0px;
     
 }
+/*positioning title*/
 #img1{
     float:left;
     margin-top:40px;
@@ -36,6 +37,7 @@ header a{
     font-family: monospace;
     opacity:1;
 }
+/*positioning nav. links*/
 nav{
     position:relative;
     float:right;
@@ -50,11 +52,13 @@ nav{
 header background{
     opacity: 0.5;
 }
+/*changing font style and color when hovered*/
 header a:hover{
     color:blue;
     font-family: helvetica;
     border-bottom-style:dashed;
 }
+/*positioning the landscape image*/
 .container #background2 img{
     position:absolute;
     margin:auto;
@@ -105,6 +109,7 @@ h2{
     margin-top:10px;
     margin-bottom:10px;
 }
+/*adjusting the bio.html page when window size changes*/
 @media(min-width:1901px){
     .about{
         top:-275px;
@@ -206,14 +211,14 @@ h2{
         font-size:40%;
     }
 }
-/* Container holding the image and the text */
+/* container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
 
-/* Centered text */
+/* centered text */
 .centered {
     position: absolute;
     font-family: helvetica;
@@ -222,6 +227,7 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*lower text in the bubble*/
 .lower{
     position:absolute;
     font-family: helvetica;
@@ -362,6 +368,7 @@ h6{
     color:rgb(100, 197, 198);
     border-bottom-style: solid;
 }
+/*made it relative so that the paragraph with position: absolute can position at #description instead of the entire website*/
 #description {
     position:relative;
 
@@ -383,6 +390,7 @@ h7{
     transform: translate(-50%, -50%);
     font-family: cursive;
 }
+/*adjusting the size of the "My Dog" section paragraph as the window size changes*/
 @media(min-width:651px){
     .paragraph{
         font-size:100%;
@@ -401,6 +409,23 @@ h7{
     }
 }
 .container6{
+    position:relative;
     background:url(background.jpg);
     background-size:cover;
+}
+/*adding the gray highlight and underline at current page nav*/
+.highlight{
+    background: rgb(200,200,200,0.5);
+    border-bottom-style: groove;
+    border-bottom-color: white;
+    border-radius:5px
+}
+h8{
+    position:relative;
+    color:white;
+    left:40%;
+    font-family: arial black;
+    display:inline-block;
+    top:70%;
+    height:500px
 }
