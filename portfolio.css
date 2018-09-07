@@ -105,7 +105,41 @@ h2{
     margin-top:10px;
     margin-bottom:10px;
 }
-
+@media(min-width:1901px){
+    .about{
+        top:-275px;
+    }
+}
+@media(max-width:1900px){
+    .about{
+        top:-275px;
+    }
+}
+@media(max-width:1751px){
+    .about{
+        top:-200px;
+    }
+}
+@media(max-width:1650px){
+    .about{
+        top:-150px;
+    }
+}
+@media(max-width:1550px){
+    .about{
+        top:-100px;
+    }
+}
+@media(max-width:1450px){
+    .about{
+        top:-50px;
+    }
+}
+@media(max-width:1300px){
+    .about{
+        top:0px;
+    }
+}
 @media(max-width:1200px){
     .about p{
         font-size: 13px;
@@ -305,5 +339,59 @@ h3{
     position:absolute;
     top:45%;
     left:33%;
+    width:50%;
 
+}
+#description img{
+    margin-top: 7%;
+    position:absolute;
+    left:15%;
+}
+h6{
+    position:relative;
+    margin-bottom: 40%;
+    left:55%;
+    display:table;
+    font-size: 110%;
+    font-family:arial black;
+    color:rgb(100, 197, 198);
+    border-bottom-style: solid;
+}
+#description {
+    position:relative;
+
+}
+h7{
+    display:block;
+    margin-top:1%;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    
+}
+.paragraph{
+    position: absolute;
+    width:40%;
+    background:rgb(100,197,198,0.5);
+    padding:7px;
+    border-radius:10px;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+}
+@media(min-width:651px){
+    .paragraph{
+        font-size:100%;
+        top:290%
+    }
+}
+@media(max-width:650px){
+    .paragraph{
+        font-size:80%;
+        top:260%
+    }
+}@media(max-width:550px){
+    .paragraph{
+        font-size:60%;
+        top:200%;
+    }
 }
