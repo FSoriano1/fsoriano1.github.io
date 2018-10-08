@@ -412,6 +412,11 @@ h7{
     position:relative;
     background:url(background.jpg);
     background-size:cover;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 /*adding the gray highlight and underline at current page nav*/
 .highlight{
@@ -420,12 +425,32 @@ h7{
     border-bottom-color: white;
     border-radius:5px
 }
+iframe{
+    top:30px;
+    position:relative;
+    margin:auto;
+}
 h8{
     position:relative;
     color:white;
-    left:40%;
     font-family: arial black;
     display:inline-block;
-    top:70%;
-    height:500px
+    top:30px;
+}
+h9{
+    position:relative;
+    color:white;
+    display:inline-block;
+    font-family: arial black;
+    top:0px;
+}
+h10{
+    position:relative;
+    width:70%;
+    text-align: center;
+    color:white;
+    display:inline-block;
+    top:0px;
+    height:500px;
+
 }
