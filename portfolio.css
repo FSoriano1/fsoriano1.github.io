@@ -425,7 +425,7 @@ h7{
     border-bottom-color: white;
     border-radius:5px
 }
-iframe{
+#iframe1{
     top:30px;
     position:relative;
     margin:auto;
@@ -451,6 +451,22 @@ h10{
     color:white;
     display:inline-block;
     top:0px;
-    height:500px;
+    height:100px;
 
+}
+h11{
+    position:relative;
+    display:inline-block;
+    color:white;
+    font-family:arial black;
+}
+h12{
+    position:relative;
+    display:inline-block;
+    color:white;
+}
+.container6 #iframe2{
+    margin-bottom: 100px;
+    width:80%;
+    position:relative;
 }
